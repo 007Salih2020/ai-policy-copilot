@@ -1,0 +1,31 @@
+clauses:
+  - id: "5.1"
+    title: Leadership and commitment
+  - id: "5.2"
+    title: Policy
+  - id: "5.3"
+    title: Organizational roles, responsibilities and authorities
+  - id: "6.1"
+    title: Actions to address risks and opportunities
+  - id: "7.4"
+    title: Communication
+  - id: "8.1"
+    title: Operational planning and control
+  - id: "8.2"
+    title: Information security risk assessment
+  - id: "8.3"
+    title: Information security risk treatment
+  - id: A.5.15
+    title: Access control
+  - id: A.5.16
+    title: Identity management
+  - id: A.5.23
+    title: Information security for use of cloud services
+  - id: A.8.8
+    title: Management of technical vulnerabilities
+  - id: A.8.9
+    title: Configuration management
+  - id: A.8.28
+    title: Secure coding
+  - id: A.8.32
+    title: Change management

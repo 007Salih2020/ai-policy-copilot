@@ -1,0 +1,2 @@
+[console_scripts]
+soc2-copilot = soc2_copilot.cli.main:app

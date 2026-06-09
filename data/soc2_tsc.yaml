@@ -1,0 +1,30 @@
+criteria:
+  - id: CC1.1
+    domain: Control Environment
+    title: Integrity and Ethical Values
+    objective: The organization demonstrates commitment to integrity and ethical values.
+  - id: CC2.1
+    domain: Communication and Information
+    title: Internal Communication
+    objective: Internal information supports the functioning of internal control.
+  - id: CC6.1
+    domain: Logical and Physical Access Controls
+    title: Logical Access
+    objective: Logical access controls restrict and protect system assets.
+  - id: CC6.2
+    domain: Logical and Physical Access Controls
+    title: Authentication
+    objective: Prior to issuing credentials, the organization registers and authorizes users.
+  - id: CC7.2
+    domain: System Operations
+    title: Monitoring
+    objective: The organization monitors system components and detects anomalies.
+  - id: CC8.1
+    domain: Change Management
+    title: Change Authorization
+    objective: Changes are authorized, designed, developed, configured, documented, tested, approved, and implemented.
+  - id: CC9.2
+    domain: Risk Mitigation
+    title: Vendor and Business Continuity Controls
+    objective: The organization assesses and manages risks from business continuity and external dependencies.
+

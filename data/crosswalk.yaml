@@ -1,0 +1,41 @@
+crosswalk:
+  - criteria_id: CC1.1
+    iso_27001_clauses:
+      - "5.1"
+      - "5.2"
+      - "5.3"
+    rationale: Leadership and policy accountability align with governance over ethical behavior.
+  - criteria_id: CC2.1
+    iso_27001_clauses:
+      - "7.4"
+      - "8.1"
+    rationale: Internal control communications depend on clear operational communication channels.
+  - criteria_id: CC6.1
+    iso_27001_clauses:
+      - A.5.15
+      - A.5.16
+      - A.8.9
+    rationale: Restricting logical access maps directly to identity, authorization, and configuration controls.
+  - criteria_id: CC6.2
+    iso_27001_clauses:
+      - A.5.16
+      - "8.1"
+    rationale: Credential issuance and authorization are aligned with identity management and operational control.
+  - criteria_id: CC7.2
+    iso_27001_clauses:
+      - A.8.8
+      - A.8.9
+    rationale: Monitoring and anomaly detection rely on vulnerability and configuration oversight.
+  - criteria_id: CC8.1
+    iso_27001_clauses:
+      - A.8.28
+      - A.8.32
+      - "8.1"
+    rationale: Change authorization is supported by secure coding and controlled change management practices.
+  - criteria_id: CC9.2
+    iso_27001_clauses:
+      - "6.1"
+      - "8.2"
+      - "8.3"
+      - A.5.23
+    rationale: Business continuity and vendor dependency risk treatment align with cloud service and risk management clauses.

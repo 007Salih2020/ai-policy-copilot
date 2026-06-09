@@ -1,0 +1,57 @@
+# Secure Development Policy
+
+> AI-assisted draft generated from discovered system facts. Human review and attestation required before operational or audit use.
+
+## Purpose
+
+{{ purpose }}
+
+## Scope
+
+{{ scope }}
+
+## Roles and Responsibilities
+
+{% for role in roles %}
+- **{{ role.title }}**: {{ role.description }}
+{% endfor %}
+
+## Policy Statements
+
+{% for statement in policy_statements %}
+- {{ statement }}
+{% endfor %}
+
+## Evidence of Operation
+
+{% for evidence in observed_facts %}
+- {{ evidence }}
+{% endfor %}
+{% if not observed_facts %}
+- No secure-development evidence was observed in the supplied facts. Manual confirmation is required.
+{% endif %}
+
+## Required Practices Where Evidence Is Missing
+
+{% for requirement in required_practices %}
+- {{ requirement }}
+{% endfor %}
+
+## Exceptions
+
+{{ exceptions }}
+
+## Review Cycle
+
+{{ review_cycle }}
+
+## Policy Owner
+
+{{ policy_owner }}
+
+## Notes
+
+{% for note in notes %}
+- {{ note }}
+{% endfor %}
+
